@@ -7,9 +7,54 @@ body {
   -moz-osx-font-smoothing: grayscale;
   display: flex;
   flex-flow: column nowrap;
+  width: 80%;
+  margin: auto;
+  text-align: center;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.app-header {
+  margin: auto;
+  text-align: left;
+  font-size: 1.5em;
+  margin-left: 15vw;
+}
+
+.app-header > h1{
+  margin-bottom: 0;
+}
+
+#picture > img{
+  justify-content: flex-start;
+  max-height: 25vh;
+  width: auto;
+  border-radius: 40px;
+  border: 2px solid black;
+  position: absolute;
+  top: 5vh;
+  left: 5vw;
+}
+
+.Info-List {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  margin: auto;
+}
+
+.contact {
+  display: flex;
+  flex-flow: column;
+  height: 20%;
+  text-align: left;
+}
+
+.employment > ul {
+  list-style: none;
+}
+
