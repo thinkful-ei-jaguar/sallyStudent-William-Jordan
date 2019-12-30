@@ -2,12 +2,12 @@ import React from 'react';
 
 function ContactInfo(props) {
   return (
-    <div className="contact-info-container">
-      <ul>
-        <li>Name: {props.name}</li>
-        <li>E-mail: {props.email}</li>
-        <li>Phone #: {props.phone}</li>
-        <li>
+    <div className="Contact-Info">
+      <ul className="Info-List">
+        <li id="name">Name: {props.name}</li>
+        <li id="email">E-mail: {props.email}</li>
+        <li id="phone">Phone #: {props.phone}</li>
+        <li id="picture">
           <img src={props.picture} />
         </li>
       </ul>
