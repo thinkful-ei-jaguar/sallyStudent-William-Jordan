@@ -7,9 +7,69 @@ body {
   -moz-osx-font-smoothing: grayscale;
   display: flex;
   flex-flow: column nowrap;
+  width: 80%;
+  margin: auto;
+  text-align: center;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.left{
+  align-items: flex-start;
+}
+
+.left-container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.right{
+  align-items: flex-end;
+}
+
+ 
+.app-header {
+  margin: auto;
+  font-size: 1.5em;
+}
+
+
+#picture > img{
+  justify-content: center;
+  max-height: 50vh;
+  border-radius: 40px;
+  border: 2px solid black;
+}
+
+
+.Info-List {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.contact > li {
+  margin-top: 10px;
+}
+
+.employment > ul {
+  list-style: none;
+}
+
+.employment-li {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+}
+
