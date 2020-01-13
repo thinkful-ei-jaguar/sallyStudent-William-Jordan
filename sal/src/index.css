@@ -17,44 +17,59 @@ code {
     monospace;
 }
 
+.App {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.left{
+  align-items: flex-start;
+}
+
+.left-container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.right{
+  align-items: flex-end;
+}
+
+ 
 .app-header {
   margin: auto;
-  text-align: left;
   font-size: 1.5em;
-  margin-left: 15vw;
 }
 
-.app-header > h1{
-  margin-bottom: 0;
-}
 
 #picture > img{
-  justify-content: flex-start;
-  max-height: 25vh;
-  width: auto;
+  justify-content: center;
+  max-height: 50vh;
   border-radius: 40px;
   border: 2px solid black;
-  position: absolute;
-  top: 5vh;
-  left: 5vw;
 }
+
 
 .Info-List {
   list-style: none;
   display: flex;
-  flex-direction: row;
-  width: 40%;
-  margin: auto;
+  flex-direction: column;
+  
 }
 
-.contact {
-  display: flex;
-  flex-flow: column;
-  height: 20%;
-  text-align: left;
+.contact > li {
+  margin-top: 10px;
 }
 
 .employment > ul {
   list-style: none;
+}
+
+.employment-li {
+  width: 80%;
+  text-align: center;
+  margin: auto;
 }
 
