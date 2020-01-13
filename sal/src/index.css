@@ -73,3 +73,17 @@ code {
   margin: auto;
 }
 
+@media only screen and (max-width: 750px) {
+  .App{
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    align-content: center;
+  }
+  
+  .Info-List {
+    align-content: center;
+    padding: 0;
+  }
+
+}

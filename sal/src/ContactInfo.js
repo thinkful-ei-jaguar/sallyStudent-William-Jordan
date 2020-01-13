@@ -8,7 +8,6 @@ function ContactInfo(props) {
           <img src={props.picture} alt='Sally Student posing'/>
         </li>
         <div className="contact">
-          {/* <li id="name">Name: {props.name}</li> */}
           <li id="email"><strong>E-mail:</strong> {props.email}</li>
           <li id="phone"><strong>Phone #:</strong> {props.phone}</li>
         </div>
